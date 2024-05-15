@@ -104,7 +104,7 @@ class Player extends BodyComponent with DragCallbacks {
       body.setType(BodyType.dynamic);
       body.applyLinearImpulse(_dragDelta * -50);
       add(RemoveEffect(
-        delay: 5.0,
+        delay: 3.0,
       ));
     }
   }
